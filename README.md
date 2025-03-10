@@ -1,6 +1,7 @@
 <p align="center">
   <img src="/resources/asset/dashboard.png" width="500" alt="Halaman Depan">
 </p>
+
 # CRUD-Laravel-Livewire-Sederhana
 
 Aplikasi ini merupakan contoh sederhana penerapan operasi CRUD (Create, Read, Update, Delete) menggunakan Laravel dan Livewire. Proyek ini dibuat untuk membantu pemahaman dasar tentang bagaimana mengintegrasikan Laravel dengan Livewire guna membangun aplikasi web interaktif.
