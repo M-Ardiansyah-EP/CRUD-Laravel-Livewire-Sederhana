@@ -10,7 +10,7 @@ Aplikasi ini merupakan contoh sederhana penerapan operasi CRUD (Create, Read, Up
 Clone repository dengan perintah:  
 ```bash
 git clone https://github.com/M-Ardiansyah-EP/CRUD-Laravel-Livewire-Sederhana.git
-  
+```
 Masuk ke direktori proyek:  
 ```bash
 cd CRUD-Laravel-Livewire-Sederhana
