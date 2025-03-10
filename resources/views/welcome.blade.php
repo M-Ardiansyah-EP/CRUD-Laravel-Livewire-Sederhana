@@ -53,6 +53,39 @@
             border-top: 5px solid #333;
             border-bottom: 5px solid transparent;
         }
+        
+        .modern-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .modern-card-header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 1rem 1.5rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .modern-card-body {
+            padding: 1.5rem;
+            background: #fff;
+        }
+
+        .modern-alert {
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-modern thead {
+            background: #f7f7f7;
+        }
+        
+        .table-modern tbody tr:hover {
+            background: #f1f1f1;
+        }
     </style>
 
 </head>
