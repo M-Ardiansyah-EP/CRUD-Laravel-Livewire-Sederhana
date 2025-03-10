@@ -1,4 +1,3 @@
-```markdown
 # CRUD-Laravel-Livewire-Sederhana
 
 Aplikasi ini merupakan contoh sederhana penerapan operasi CRUD (Create, Read, Update, Delete) menggunakan Laravel dan Livewire. Proyek ini dibuat untuk membantu pemahaman dasar tentang bagaimana mengintegrasikan Laravel dengan Livewire guna membangun aplikasi web interaktif.
@@ -10,8 +9,7 @@ Aplikasi ini merupakan contoh sederhana penerapan operasi CRUD (Create, Read, Up
 **Cara Clone dan Setup Proyek:**  
 Clone repository dengan perintah:  
 ```bash
-git clone https://github.com/M-Ardiansyah-EP/CRUD-Laravel-Livewire-Sederhana.git
-```  
+git clone https://github.com/M-Ardiansyah-EP/CRUD-Laravel-Livewire-Sederhana.git```  
 Masuk ke direktori proyek:  
 ```bash
 cd CRUD-Laravel-Livewire-Sederhana
