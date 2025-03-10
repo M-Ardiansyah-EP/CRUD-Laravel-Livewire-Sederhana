@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="asset/dashboard.png" width="400" alt="Logo Proyek">
+  <img src="/resources/asset/dashboard.png" width="400" alt="Halaman Depan">
 </p>
 # CRUD-Laravel-Livewire-Sederhana
 
