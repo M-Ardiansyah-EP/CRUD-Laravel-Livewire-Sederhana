@@ -1,86 +1,51 @@
+```markdown
 # CRUD-Laravel-Livewire-Sederhana
 
 Aplikasi ini merupakan contoh sederhana penerapan operasi CRUD (Create, Read, Update, Delete) menggunakan Laravel dan Livewire. Proyek ini dibuat untuk membantu pemahaman dasar tentang bagaimana mengintegrasikan Laravel dengan Livewire guna membangun aplikasi web interaktif.
 
-## Fitur
+**Fitur:** Operasi CRUD (menambahkan, menampilkan, mengubah, dan menghapus data), update UI secara real-time dengan Livewire, dan struktur kode yang bersih sehingga mudah untuk dipelajari dan dikembangkan lebih lanjut.
 
-- **Operasi CRUD:** Menambahkan, menampilkan, mengubah, dan menghapus data.
-- **Livewire:** Update UI secara real-time tanpa harus reload halaman.
-- **Struktur Kode yang Bersih:** Mudah untuk dipelajari dan dikembangkan lebih lanjut.
+**Persyaratan:** PHP versi 7.4 atau lebih tinggi, Composer, Laravel 8 atau lebih tinggi, serta Node.js dan npm (jika ingin meng-compile asset front-end).
 
-## Persyaratan
-
-- PHP versi 7.4 atau lebih tinggi
-- Composer
-- Laravel 8 atau lebih tinggi
-- Node.js dan npm (jika ingin meng-compile asset front-end)
-
-## Cara Clone dan Setup Proyek
-
-Ikuti langkah-langkah berikut untuk menjalankan proyek secara lokal:
-
-1. **Clone Repository**
-
-   Jalankan perintah berikut di terminal untuk meng-clone repository:
-   ```bash
-   git clone https://github.com/M-Ardiansyah-EP/CRUD-Laravel-Livewire-Sederhana.git
-Masuk ke Direktori Proyek
-
-Pindah ke folder proyek:
-
-bash
+**Cara Clone dan Setup Proyek:**  
+Clone repository dengan perintah:  
+```bash
+git clone https://github.com/M-Ardiansyah-EP/CRUD-Laravel-Livewire-Sederhana.git
+```  
+Masuk ke direktori proyek:  
+```bash
 cd CRUD-Laravel-Livewire-Sederhana
-Install Dependensi PHP
-
-Instal semua dependensi menggunakan Composer:
-
-bash
+```  
+Install dependensi PHP menggunakan Composer:  
+```bash
 composer install
-Setup Environment
-
-Salin file environment example dan sesuaikan pengaturan yang diperlukan:
-
-bash
+```  
+Setup environment dengan menyalin file .env.example ke .env:  
+```bash
 cp .env.example .env
-Kemudian, buka file .env dan atur konfigurasi database serta variabel lain sesuai kebutuhan.
-
-Generate Application Key
-
-Jalankan perintah berikut untuk menghasilkan application key:
-
-bash
+```  
+Kemudian, atur konfigurasi database dan variabel lainnya pada file .env. Selanjutnya, generate application key:  
+```bash
 php artisan key:generate
-Jalankan Migrasi Database
-
-Untuk membuat tabel-tabel yang diperlukan, jalankan:
-
-bash
+```  
+Jalankan migrasi database:  
+```bash
 php artisan migrate
-(Opsional) Install Dependensi Node.js dan Compile Assets
-
-Jika proyek menggunakan asset front-end, jalankan:
-
-bash
+```  
+Jika proyek menggunakan asset front-end, install dependensi Node.js dan compile assets:  
+```bash
 npm install
 npm run dev
-Jalankan Server
-
-Mulai server pengembangan Laravel:
-
-bash
+```  
+Jalankan server pengembangan Laravel:  
+```bash
 php artisan serve
-Proyek akan dapat diakses melalui http://localhost:8000.
+```  
+Proyek akan dapat diakses melalui [http://localhost:8000](http://localhost:8000).
 
-Kontribusi
+**Kontribusi:**  
 Kontribusi sangat diterima! Jika ingin berkontribusi, silakan fork repository ini dan buat pull request.
 
-Lisensi
-Proyek ini dilisensikan di bawah MIT License.
-
-Dokumentasi di atas sudah mencakup penjelasan tentang apa proyek ini serta langkah-langkah untuk melakukan clone dan setup sehingga mudah dipahami oleh siapa saja yang ingin mencoba atau mengembangkan lebih lanjut.
-
-
-
-
-
-
+**Lisensi:**  
+Proyek ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/MIT).
+```
